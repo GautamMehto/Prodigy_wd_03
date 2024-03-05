@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Text1;
+    src: url(ArchitectsDaughter-Regular.ttf);
+}
+@font-face {
+    font-family: Text2;
+    src: url(static/ShantellSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Text3;
+    src: url(static/ShantellSans-LightItalic.ttf);
+}
+
+.Text1{
+    /* font-family: Text1; */
+    background-clip: text;
+    color: transparent;
+    text-shadow: 10px 10px 20px#00c7ff73;
+}
+.Text2{
+    background-clip: text;
+    color: transparent;
+    text-shadow: 10px 10px 20px#ff4500bd;
+}
+.Text3{
+    font-family: Text3;
+}
+.square{
+    font-family: Text1;
+}
+.status{
+    font-family: Text1;
+}
